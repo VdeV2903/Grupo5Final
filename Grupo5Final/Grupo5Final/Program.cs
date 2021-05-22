@@ -16,7 +16,7 @@ namespace Grupo5Final
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new principal());
+            Application.Run(new Form1());
         }
     }
 }
