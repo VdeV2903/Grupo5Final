@@ -17,18 +17,26 @@ namespace Grupo5Final
         public principal()
         {
             InitializeComponent();
-            Form1 frm = new Form1();
-            frm.ShowDialog();
+            
         }
+        private Boolean auth;
+        public bool Auth { get => auth; set => auth = value; }
+
+        
+        
         private void principal_Load(object sender, EventArgs e)
         {
-
+            Form1 frm = new Form1();
+            frm.ShowDialog();
         }
         public void rango(string rango)
         {
 
         }
         private Form activeform = null;
+
+        
+
         private void abrirhija(Form formhija)
         {
             if (activeform != null)

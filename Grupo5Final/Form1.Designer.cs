@@ -53,11 +53,11 @@ namespace Grupo5Final
             this.btnlog.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlog.Image = ((System.Drawing.Image)(resources.GetObject("btnlog.Image")));
             this.btnlog.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnlog.Location = new System.Drawing.Point(292, 140);
+            this.btnlog.Location = new System.Drawing.Point(256, 116);
             this.btnlog.Name = "btnlog";
-            this.btnlog.Size = new System.Drawing.Size(203, 42);
+            this.btnlog.Size = new System.Drawing.Size(165, 42);
             this.btnlog.TabIndex = 0;
-            this.btnlog.Text = "Iniciar     ";
+            this.btnlog.Text = "Iniciar  ";
             this.btnlog.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnlog.UseVisualStyleBackColor = true;
             this.btnlog.Click += new System.EventHandler(this.btnlog_Click);
@@ -67,7 +67,7 @@ namespace Grupo5Final
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(286, 53);
+            this.label1.Location = new System.Drawing.Point(286, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 22);
             this.label1.TabIndex = 1;
@@ -78,7 +78,7 @@ namespace Grupo5Final
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(252, 86);
+            this.label2.Location = new System.Drawing.Point(252, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 22);
             this.label2.TabIndex = 2;
@@ -87,7 +87,7 @@ namespace Grupo5Final
             // txtuser
             // 
             this.txtuser.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuser.Location = new System.Drawing.Point(379, 52);
+            this.txtuser.Location = new System.Drawing.Point(379, 33);
             this.txtuser.Name = "txtuser";
             this.txtuser.Size = new System.Drawing.Size(144, 27);
             this.txtuser.TabIndex = 3;
@@ -96,7 +96,7 @@ namespace Grupo5Final
             // txtpass
             // 
             this.txtpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.Location = new System.Drawing.Point(379, 84);
+            this.txtpass.Location = new System.Drawing.Point(379, 65);
             this.txtpass.Name = "txtpass";
             this.txtpass.PasswordChar = '*';
             this.txtpass.Size = new System.Drawing.Size(144, 27);
@@ -106,7 +106,7 @@ namespace Grupo5Final
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(214, 45);
+            this.pictureBox1.Location = new System.Drawing.Point(214, 26);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 36);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -116,7 +116,7 @@ namespace Grupo5Final
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(206, 85);
+            this.pictureBox2.Location = new System.Drawing.Point(206, 66);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(40, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -126,7 +126,7 @@ namespace Grupo5Final
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(23, 21);
+            this.pictureBox3.Location = new System.Drawing.Point(12, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(177, 170);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -146,7 +146,7 @@ namespace Grupo5Final
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(626, 213);
+            this.ClientSize = new System.Drawing.Size(642, 252);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -156,6 +156,8 @@ namespace Grupo5Final
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnlog);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(642, 252);
+            this.MinimumSize = new System.Drawing.Size(642, 252);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Biblioteca UTEC";

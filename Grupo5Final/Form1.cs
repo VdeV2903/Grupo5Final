@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Runtime.InteropServices;
 
 namespace Grupo5Final
 {
@@ -21,7 +22,7 @@ namespace Grupo5Final
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          
+            
 
         }
 
@@ -43,6 +44,7 @@ namespace Grupo5Final
                     errorpass.SetError(txtpass, "Ingrese la contraseña");
                     return;
                 }
+                principal prt = new principal();
                 string cn = ConfigurationManager.ConnectionStrings["conector"].ConnectionString;
                 using (SqlConnection conexion = new SqlConnection(cn))
                 {
@@ -54,6 +56,7 @@ namespace Grupo5Final
                         if (readr.Read())
                         {
                             this.Close();
+                            
                         }
                         else
                         {
@@ -62,6 +65,9 @@ namespace Grupo5Final
                     }
                     
                     conexion.Close();
+
+                    
+                    
                 }
 
 
@@ -83,6 +89,10 @@ namespace Grupo5Final
             errorpass.Clear();
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
     }
 }
