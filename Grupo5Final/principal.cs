@@ -20,6 +20,14 @@ namespace Grupo5Final
             Form1 frm = new Form1();
             frm.ShowDialog();
         }
+        private void principal_Load(object sender, EventArgs e)
+        {
+
+        }
+        public void rango(string rango)
+        {
+
+        }
         private Form activeform = null;
         private void abrirhija(Form formhija)
         {
@@ -51,57 +59,36 @@ namespace Grupo5Final
         private void button1_Click(object sender, EventArgs e)
         {
                 abrirhija(new REGISTRO_PRESTAMOS());
+                
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        public void limpiarpanel()
         {
-
+            panelcontenedor.Controls.Clear();
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void principal_Load(object sender, EventArgs e)
-        {
-            
-           
-        }
-        public void sesion()
-        {
-            
-        }
-        public void deauth()
-        {
-            btnprestar.Enabled = false;
-            btndevolver.Enabled = false;
-            btnconsultar.Enabled = false;
-            btnregistrar_estu.Enabled = false;
-            btnregistrarlibro.Enabled = false;
-            btnmodlibro.Enabled = false;
-            btnmodestu.Enabled = false;
-        }
-        public void auth_ok()
-        {
-            btnprestar.Enabled = true;
-            btndevolver.Enabled = true;
-            btnconsultar.Enabled = true;
-            btnregistrar_estu.Enabled = true;
-            btnregistrarlibro.Enabled = true;
-            btnmodlibro.Enabled = true;
-            btnmodestu.Enabled = true;
-        }
-        private void principal_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            
-            
-            
-        }
+        
+      
 
         private void btnconsultar_Click(object sender, EventArgs e)
         {
             abrirhija(new CONSULTA_LIBROS());
         }
+
+        private void btnregistrar_estu_Click(object sender, EventArgs e)
+        {
+            abrirhija(new Estudiante());
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnregistrarlibro_Click(object sender, EventArgs e)
+        {
+            abrirhija(new REGISTRO_LIBRO());
+        }
+
+        
     }
 }

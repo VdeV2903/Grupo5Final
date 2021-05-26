@@ -25,8 +25,10 @@ namespace Grupo5Final
 
         }
 
-       
 
+        string rango="";
+        string[] resultado;
+        int index = 0;
         private void btnlog_Click(object sender, EventArgs e)
         {
             try
@@ -58,7 +60,7 @@ namespace Grupo5Final
                             MessageBox.Show("Datos Incorrectos");
                         }
                     }
-
+                    
                     conexion.Close();
                 }
 

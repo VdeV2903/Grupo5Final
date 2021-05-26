@@ -31,5 +31,13 @@ namespace Grupo5Final
         {
             
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            principal pr = new principal();
+           
+            
+        }
     }
 }
