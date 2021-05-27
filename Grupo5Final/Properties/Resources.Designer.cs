@@ -93,6 +93,26 @@ namespace Grupo5Final.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Background {
+            get {
+                object obj = ResourceManager.GetObject("Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Background_RO {
+            get {
+                object obj = ResourceManager.GetObject("Background.RO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap brand {
             get {
                 object obj = ResourceManager.GetObject("brand", resourceCulture);
@@ -136,6 +156,16 @@ namespace Grupo5Final.Properties {
         internal static System.Drawing.Bitmap edit_modify_icon_icons1 {
             get {
                 object obj = ResourceManager.GetObject("edit_modify_icon-icons1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap notebook_115570 {
+            get {
+                object obj = ResourceManager.GetObject("notebook_115570", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
