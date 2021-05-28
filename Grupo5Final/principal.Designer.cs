@@ -84,7 +84,7 @@ namespace Grupo5Final
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelcontenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(15)))), ((int)(((byte)(56)))));
-            this.panelcontenedor.BackgroundImage = global::Grupo5Final.Properties.Resources.Background;
+            this.panelcontenedor.BackgroundImage = global::Grupo5Final.Properties.Resources.Background_RO;
             this.panelcontenedor.Controls.Add(this.pictureBox1);
             this.panelcontenedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelcontenedor.Location = new System.Drawing.Point(306, 103);
@@ -168,7 +168,6 @@ namespace Grupo5Final
             this.button1.TabIndex = 9;
             this.button1.Text = "SALIR";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btnmodestu
             // 
@@ -258,6 +257,7 @@ namespace Grupo5Final
             this.btndevolver.Text = "Devolver Libro";
             this.btndevolver.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btndevolver.UseVisualStyleBackColor = false;
+            this.btndevolver.Click += new System.EventHandler(this.btndevolver_Click);
             // 
             // btnprestar
             // 

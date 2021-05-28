@@ -110,7 +110,7 @@ namespace Grupo5Final
             this.txttitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttitulo.Location = new System.Drawing.Point(122, 42);
             this.txttitulo.Name = "txttitulo";
-            this.txttitulo.Size = new System.Drawing.Size(553, 35);
+            this.txttitulo.Size = new System.Drawing.Size(552, 35);
             this.txttitulo.TabIndex = 8;
             this.txttitulo.TextChanged += new System.EventHandler(this.txttitulo_TextChanged);
             this.txttitulo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txttitulo_KeyPress);
@@ -121,7 +121,7 @@ namespace Grupo5Final
             this.txtautor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtautor.Location = new System.Drawing.Point(122, 81);
             this.txtautor.Name = "txtautor";
-            this.txtautor.Size = new System.Drawing.Size(553, 35);
+            this.txtautor.Size = new System.Drawing.Size(552, 35);
             this.txtautor.TabIndex = 9;
             this.txtautor.TextChanged += new System.EventHandler(this.txtautor_TextChanged);
             this.txtautor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtautor_KeyPress);
@@ -132,7 +132,7 @@ namespace Grupo5Final
             this.txteditorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txteditorial.Location = new System.Drawing.Point(122, 159);
             this.txteditorial.Name = "txteditorial";
-            this.txteditorial.Size = new System.Drawing.Size(553, 35);
+            this.txteditorial.Size = new System.Drawing.Size(552, 35);
             this.txteditorial.TabIndex = 15;
             this.txteditorial.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txteditorial_KeyPress);
             // 
@@ -143,7 +143,7 @@ namespace Grupo5Final
             this.cmbcategoria.FormattingEnabled = true;
             this.cmbcategoria.Location = new System.Drawing.Point(122, 120);
             this.cmbcategoria.Name = "cmbcategoria";
-            this.cmbcategoria.Size = new System.Drawing.Size(553, 37);
+            this.cmbcategoria.Size = new System.Drawing.Size(552, 37);
             this.cmbcategoria.TabIndex = 16;
             this.cmbcategoria.Click += new System.EventHandler(this.cmbcategoria_Click);
             // 
@@ -166,7 +166,7 @@ namespace Grupo5Final
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.66382F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.33618F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24F));
             this.tableLayoutPanel1.Controls.Add(this.txtcodigo, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 5);
@@ -197,7 +197,7 @@ namespace Grupo5Final
             this.txtcodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcodigo.Location = new System.Drawing.Point(122, 3);
             this.txtcodigo.Name = "txtcodigo";
-            this.txtcodigo.Size = new System.Drawing.Size(553, 35);
+            this.txtcodigo.Size = new System.Drawing.Size(552, 35);
             this.txtcodigo.TabIndex = 19;
             // 
             // label2

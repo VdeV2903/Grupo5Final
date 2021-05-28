@@ -74,8 +74,7 @@ namespace Grupo5Final
         {
             panelcontenedor.Controls.Clear();
         }
-        
-      
+       
 
         private void btnconsultar_Click(object sender, EventArgs e)
         {
@@ -87,16 +86,14 @@ namespace Grupo5Final
             abrirhija(new Estudiante());
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnregistrarlibro_Click(object sender, EventArgs e)
         {
             abrirhija(new REGISTRO_LIBRO());
         }
 
-        
+        private void btndevolver_Click(object sender, EventArgs e)
+        {
+            abrirhija(new Devolucion_Libros());
+        }
     }
 }

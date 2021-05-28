@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Grupo5Final
 {
@@ -17,24 +19,46 @@ namespace Grupo5Final
             InitializeComponent();
         }
 
-        private void Devolucion_Libros_Load(object sender, EventArgs e)
+        private void btnBuscar_Click(object sender, EventArgs e)
         {
+            string cn = ConfigurationManager.ConnectionStrings["conector"].ConnectionString;
+            using (SqlConnection conexion = new SqlConnection(cn))
+            {
+                try
+                {
+                    conexion.Open();
+                    string query = "select ISNULL(Codigo_Prestamo,0) AS LASTID from Prestamo";
+                    SqlCommand cmd1 = new SqlCommand(query,conexion);
+                    int code = Convert.ToInt32(cmd1.ExecuteScalar());
+                    int var = Convert.ToInt32(txtCodPrest.Text);
+
+                    if (code == var)
+                    {
+                        SqlCommand cmd = new SqlCommand("Select * from Prestamo where Codigo_prestamo="+var+"", conexion);
+                        SqlDataAdapter adt = new SqlDataAdapter();
+                        adt.SelectCommand = cmd;
+                        DataTable T_Prestamo = new DataTable();
+                        adt.Fill(T_Prestamo);
+                        dtgDevolucion.DataSource = T_Prestamo;
+                    }
+                    else
+                        MessageBox.Show("No se encontro registro del prestamo");
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnCancelar_Click(object sender, EventArgs e)
         {
-
+            clearcomponents();
         }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        public void clearcomponents()
         {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
+            txtCodPrest.Clear();
         }
     }
 }

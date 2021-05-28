@@ -50,7 +50,7 @@ namespace Grupo5Final
             errorTitulo.Clear();
         }
 
-        string titu, dest;
+        string CodeES, codeEM;
         string code_Prest;
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -88,13 +88,14 @@ namespace Grupo5Final
                     return;
                 }
 
-                titu = txtTitulo.Text;
-                dest = txtDestinatario.Text;
-                code_Prest = ((titu.Substring(0, 2) + "_" + dest.Substring(0, 2)).ToUpper());
+                CodeES = txtCarnet.Text;
+                codeEM = txtCodE.Text;
+                code_Prest = ((CodeES.Substring(0, 2) + codeEM.Substring(0, 2)).ToUpper());
                 txtPrestamo.Text = code_Prest;
 
                 string cn = ConfigurationManager.ConnectionStrings["conector"].ConnectionString;
                 using (SqlConnection conexion = new SqlConnection(cn))
+
                 { 
                     conexion.Open();
                     SqlCommand cm = new SqlCommand("SP_insertprestamo", conexion);          //command
@@ -131,6 +132,7 @@ namespace Grupo5Final
 
         public void clearcomponents()
         {
+            txtPrestamo.Clear();
             txtDestinatario.Clear();
             dtpsalida.CustomFormat = ""; 
             dtpEntrega.CustomFormat = "";

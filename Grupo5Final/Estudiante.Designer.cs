@@ -128,7 +128,7 @@ namespace Grupo5Final
             this.txtapellidos.Location = new System.Drawing.Point(164, 177);
             this.txtapellidos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtapellidos.Name = "txtapellidos";
-            this.txtapellidos.Size = new System.Drawing.Size(773, 35);
+            this.txtapellidos.Size = new System.Drawing.Size(772, 35);
             this.txtapellidos.TabIndex = 7;
             this.txtapellidos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtapellidos_KeyPress);
             // 
@@ -141,7 +141,7 @@ namespace Grupo5Final
             this.txtnombre.Location = new System.Drawing.Point(164, 91);
             this.txtnombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(773, 35);
+            this.txtnombre.Size = new System.Drawing.Size(772, 35);
             this.txtnombre.TabIndex = 6;
             this.txtnombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtnombre_KeyPress);
             // 
@@ -154,7 +154,7 @@ namespace Grupo5Final
             this.txtcorreo.Location = new System.Drawing.Point(164, 349);
             this.txtcorreo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtcorreo.Name = "txtcorreo";
-            this.txtcorreo.Size = new System.Drawing.Size(773, 35);
+            this.txtcorreo.Size = new System.Drawing.Size(772, 35);
             this.txtcorreo.TabIndex = 9;
             this.txtcorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcorreo_KeyPress);
             // 
@@ -193,7 +193,7 @@ namespace Grupo5Final
             this.txtcarnet.Location = new System.Drawing.Point(164, 5);
             this.txtcarnet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtcarnet.Name = "txtcarnet";
-            this.txtcarnet.Size = new System.Drawing.Size(773, 35);
+            this.txtcarnet.Size = new System.Drawing.Size(772, 35);
             this.txtcarnet.TabIndex = 5;
             this.txtcarnet.TextChanged += new System.EventHandler(this.txtcarnet_TextChanged);
             this.txtcarnet.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcarnet_KeyPress);
@@ -205,7 +205,7 @@ namespace Grupo5Final
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.02128F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.97872F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 228F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 229F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 10);
             this.tableLayoutPanel1.Controls.Add(this.txtcarnet, 1, 0);
@@ -313,7 +313,7 @@ namespace Grupo5Final
             this.cmbcarrera.Location = new System.Drawing.Point(164, 263);
             this.cmbcarrera.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbcarrera.Name = "cmbcarrera";
-            this.cmbcarrera.Size = new System.Drawing.Size(773, 37);
+            this.cmbcarrera.Size = new System.Drawing.Size(772, 37);
             this.cmbcarrera.TabIndex = 14;
             this.cmbcarrera.Text = "SELECCIONE....";
             // 
@@ -323,7 +323,7 @@ namespace Grupo5Final
             this.ckcorreo.Checked = true;
             this.ckcorreo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckcorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckcorreo.Location = new System.Drawing.Point(945, 349);
+            this.ckcorreo.Location = new System.Drawing.Point(944, 349);
             this.ckcorreo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ckcorreo.Name = "ckcorreo";
             this.ckcorreo.Size = new System.Drawing.Size(191, 29);

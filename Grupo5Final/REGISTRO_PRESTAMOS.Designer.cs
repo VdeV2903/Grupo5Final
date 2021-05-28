@@ -69,7 +69,7 @@ namespace Grupo5Final
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(100, 117);
+            this.label1.Location = new System.Drawing.Point(100, 178);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(202, 29);
@@ -83,7 +83,7 @@ namespace Grupo5Final
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(100, 193);
+            this.label2.Location = new System.Drawing.Point(100, 223);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(235, 29);
@@ -96,7 +96,7 @@ namespace Grupo5Final
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(100, 268);
+            this.label3.Location = new System.Drawing.Point(100, 266);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(228, 29);
@@ -109,7 +109,7 @@ namespace Grupo5Final
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(100, 348);
+            this.label4.Location = new System.Drawing.Point(100, 307);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(118, 29);
@@ -122,7 +122,7 @@ namespace Grupo5Final
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(100, 419);
+            this.label5.Location = new System.Drawing.Point(100, 350);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(304, 29);
@@ -143,7 +143,7 @@ namespace Grupo5Final
             // txtDestinatario
             // 
             this.txtDestinatario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDestinatario.Location = new System.Drawing.Point(454, 109);
+            this.txtDestinatario.Location = new System.Drawing.Point(454, 175);
             this.txtDestinatario.Margin = new System.Windows.Forms.Padding(4);
             this.txtDestinatario.Name = "txtDestinatario";
             this.txtDestinatario.Size = new System.Drawing.Size(589, 35);
@@ -153,7 +153,7 @@ namespace Grupo5Final
             // 
             this.dtpsalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpsalida.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpsalida.Location = new System.Drawing.Point(454, 184);
+            this.dtpsalida.Location = new System.Drawing.Point(454, 218);
             this.dtpsalida.Margin = new System.Windows.Forms.Padding(4);
             this.dtpsalida.Name = "dtpsalida";
             this.dtpsalida.Size = new System.Drawing.Size(589, 35);
@@ -172,7 +172,7 @@ namespace Grupo5Final
             // txtCarnet
             // 
             this.txtCarnet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCarnet.Location = new System.Drawing.Point(454, 339);
+            this.txtCarnet.Location = new System.Drawing.Point(454, 304);
             this.txtCarnet.Margin = new System.Windows.Forms.Padding(4);
             this.txtCarnet.Name = "txtCarnet";
             this.txtCarnet.Size = new System.Drawing.Size(589, 35);
@@ -181,7 +181,7 @@ namespace Grupo5Final
             // txtCodE
             // 
             this.txtCodE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodE.Location = new System.Drawing.Point(454, 415);
+            this.txtCodE.Location = new System.Drawing.Point(454, 347);
             this.txtCodE.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodE.Name = "txtCodE";
             this.txtCodE.Size = new System.Drawing.Size(589, 35);
@@ -189,24 +189,27 @@ namespace Grupo5Final
             // 
             // btnGuardar
             // 
-            this.btnGuardar.ForeColor = System.Drawing.Color.Black;
-            this.btnGuardar.Image = global::Grupo5Final.Properties.Resources.savetheapplication_guardar_2958;
+            this.btnGuardar.BackColor = System.Drawing.Color.Transparent;
+            this.btnGuardar.BackgroundImage = global::Grupo5Final.Properties.Resources.Background_RO;
+            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGuardar.Location = new System.Drawing.Point(404, 783);
+            this.btnGuardar.Location = new System.Drawing.Point(454, 472);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(288, 70);
             this.btnGuardar.TabIndex = 12;
             this.btnGuardar.Text = "GUARDAR";
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.ForeColor = System.Drawing.Color.Black;
+            this.btnCancelar.BackgroundImage = global::Grupo5Final.Properties.Resources.Background_RO;
+            this.btnCancelar.ForeColor = System.Drawing.Color.White;
             this.btnCancelar.Image = global::Grupo5Final.Properties.Resources.Cancel_icon_icons_com_73703;
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancelar.Location = new System.Drawing.Point(928, 783);
+            this.btnCancelar.Location = new System.Drawing.Point(755, 472);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(288, 70);
@@ -221,7 +224,7 @@ namespace Grupo5Final
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(100, 500);
+            this.label6.Location = new System.Drawing.Point(100, 393);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(231, 29);
@@ -231,7 +234,7 @@ namespace Grupo5Final
             // txtTitulo
             // 
             this.txtTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTitulo.Location = new System.Drawing.Point(454, 500);
+            this.txtTitulo.Location = new System.Drawing.Point(454, 390);
             this.txtTitulo.Margin = new System.Windows.Forms.Padding(4);
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(589, 35);
@@ -267,7 +270,7 @@ namespace Grupo5Final
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(100, 32);
+            this.label7.Location = new System.Drawing.Point(100, 135);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(226, 29);
@@ -278,7 +281,7 @@ namespace Grupo5Final
             // txtPrestamo
             // 
             this.txtPrestamo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrestamo.Location = new System.Drawing.Point(454, 32);
+            this.txtPrestamo.Location = new System.Drawing.Point(454, 132);
             this.txtPrestamo.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrestamo.Name = "txtPrestamo";
             this.txtPrestamo.Size = new System.Drawing.Size(589, 35);
@@ -289,8 +292,8 @@ namespace Grupo5Final
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(15)))), ((int)(((byte)(56)))));
-            this.BackgroundImage = global::Grupo5Final.Properties.Resources.Background;
-            this.ClientSize = new System.Drawing.Size(1244, 669);
+            this.BackgroundImage = global::Grupo5Final.Properties.Resources.Background_RO;
+            this.ClientSize = new System.Drawing.Size(1081, 693);
             this.ControlBox = false;
             this.Controls.Add(this.txtPrestamo);
             this.Controls.Add(this.label7);
